@@ -1,0 +1,21 @@
+body {
+    background: white;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    
+}
+
+.name-hilight{
+    color: orange;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 2%;
+}
+.half-width img {
+    width: 100%;
+}

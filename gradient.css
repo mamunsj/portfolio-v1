@@ -1,0 +1,36 @@
+.grad{
+    height: 400px;
+    width: 600px;
+    text-align: center;
+    margin:auto;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+#grad {
+    margin-left: 40%;
+    margin-top: 3%;
+    height: 150px;
+    width: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(circle, red, yellow, green);
+  }
+
+  #gradd2{
+        height: 200px;
+        width: 200px;
+        margin-left: 40%;
+        margin-top: 3%;
+        background-color: red; /* For browsers that do not support gradients */
+        background-image: conic-gradient(red, yellow, green, blue, black);
+        border-radius: 50%;
+  }
+
+  #conic{
+    height: 200px;
+    width: 200px;
+    margin-left: 40%;
+    margin-top: 3%;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: repeating-conic-gradient(red 10%, yellow 20%);
+    border-radius: 50%;
+  }
